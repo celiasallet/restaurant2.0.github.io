@@ -23,6 +23,14 @@ Tho, I might have found the answer in this video. We'll see tomorrow ...
 
 https://www.youtube.com/watch?v=2ygog4MHXws&ab_channel=NouvelleTechno
 
+## After two days of struggle, my database is finally connected to my form ! Yihaa. 
 
+#### This is my PHP request who's posting my data onto phpmyadmin, filling rightfully my table. 
 
+<img src="./application/source/phpdone.png" alt="Alt text" title="links" width="600px">
 
+<img src="./application/source/phpmy.png" alt="Alt text" title="links" width="600px">
+
+#### Now I will create a function with JS: 
+
+##### addEventlistenner, if the form is submited correctly then the client get sent to the success.html page.
