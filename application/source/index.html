@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- Links -->
+<html lang="english">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="images/Screenshot 2024-06-11 at 16.06.19.png" type="image/png" alt="Le logo de Britanica" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg  bg-info fixed-top">
+    <a class="navbar-brand text-white mx-3" href="index.html"><b>ANTI-PASTIS</b></a>
+    <div class="d-lg-none">
+        <button class="navbar-toggler border p-1 mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="images/hambur.png" alt="Menu">
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="restaurant.html">Restaurants</a>
+            <a class="dropdown-item" href="menu.html">Menu</a>
+            <a class="dropdown-item" href="pictures.html">Photos</a>
+            <a class="dropdown-item" href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link text-white" href="restaurant.html"><b>Restaurants</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="menu.html"><b>Menu</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="pictures.html"><b>Photos</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html"><b>Contact</b></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- body plus div pour image  -->
+<body>
+<div class="image mt-3 px-3 pt-4 pb-4">
+<!-- ABOVE SAME ON EVERY PAGE -->
+<header style="background-color:rgb(22, 22, 22)" class="mt-5 p-4">
+<div class="jumbodron " style="background-color: rgb(22, 22, 22)">
+    <p class="lead text-white mt-2"><b>Une évasion culinaire accompagnée de cocktails envoûtants!</b></p>
+    <hr class="my-4 text-white">
+    <p class="text-white p-4">Anti Pastis vous invite à une évasion culinaire où simplicité et convivialité sont au rendez-vous. Dégustez nos délicieuses planches à partager, composées de produits frais et soigneusement sélectionnés. Chaque planche est un mélange harmonieux de saveurs, parfait pour des moments de partage entre amis ou en famille. Nos cocktails, préparés avec soin, accompagnent idéalement ces instants gourmands. Plongez dans une ambiance chaleureuse et accueillante, idéale pour des soirées décontractées. Anti Pastis, c'est l'endroit parfait pour savourer de bons moments ensemble.</p>
+</div>
+</div>
+</header>
+    <main>
+        <div class="row d-flex justify-content-center">
+        <div class="col-10 mx-md-3  mx-3 mt-2 col-md-5 mb-2">
+            <img class="card-img-top mt-3" src="images/promo to share.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title pt-4"><b>PROMO:</b> Sharing is caring !</h5>
+              <p class="card-text  border border-info p-3 mt-3">Découvrez notre nouvelle offre exclusive "Sharing is Caring", parfaite pour ceux qui aiment partager de bons moments en compagnie. Cette offre spéciale combine nos délicieuses planches de charcuterie et antipasti avec une sélection de cocktails raffinés à base de rhum. Idéale pour une soirée entre amis, une réunion de famille ou toute occasion spéciale.</p>
+              <button type="button" class="btn border border-info" data-bs-toggle="modal" data-bs-target="#Modal2">Voir l'offre</button>
+              <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2Label" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            L'offre "Sharing is Caring" est valable pour 4 personnes minimum. <br>
+                            Disponible tous les jours de la semaine, de 18h00 à 22h00. <br>
+                            Réservation recommandée pour garantir la disponibilité.   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-10 mx-md-3  mx-3 mt-2 col-md-5 mb-2">
+            <img class="card-img-top mt-3" src="images/resa.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title pt-4">Anti-Pastis pour Votre Fête!</h5>
+              <p class="card-text border border-info p-3 mt-3">Vous cherchez un endroit unique et accueillant pour célébrer une occasion spéciale ? Chez Anti-Pastis, nous vous offrons la possibilité de réserver notre restaurant pour vos fêtes privées ! Que ce soit pour un anniversaire, une soirée entre amis, un événement professionnel ou toute autre célébration, notre équipe est prête à rendre votre événement inoubliable.</p>
+              <button type="button" class="btn border border-info" data-bs-toggle="modal" data-bs-target="#Modal3">Voir l'offre</button>
+              <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal3Label" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        Tarification : <br><br>
+                         - Forfait de base incluant la privatisation de l'espace, le service de restauration et le bar à cocktails. <br>
+                         - Prix variables en fonction du nombre de personnes et des options choisies. <br><br>
+                        
+                        Réservation : <br><br>
+
+                        - Réservation minimum de 2 semaines à l'avance. <br>
+                        - Acompte de 30% requis pour confirmer la réservation. <br><br>
+                        
+                        Horaires : <br><br>
+
+                        - Disponible tous les jours de la semaine. <br>
+                        - Horaires flexibles pour s'adapter à votre événement. <br><br>
+                        Bonus : <br><br>
+
+                        - Une bouteille de champagne offerte pour les réservations effectuées avant la fin du mois. <br>
+                        - Réductions spéciales pour les événements récurrents ou les clients fidèles. <br><br>
+                        Contactez-nous dès aujourd'hui pour réserver Anti-Pastis pour votre fête !
+                        Nous sommes à votre disposition pour discuter de vos besoins et vous aider à organiser un événement sur mesure. Pour toute demande ou réservation, n'hésitez pas à nous contacter par téléphone, email, ou via notre site web.
+
+   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+    </main>
+<!-- SAME ON EVERY PAGE BELOW -->
+<!-- Div de l'image -->
+<footer>
+    <div class="container bg-info mb-4  mt-5 px-4">
+        <h6 class="text-white p-3">À bientôt dans l'une de nos enseignes!</h6>
+    </div>
+</footer>
+<!-- Script Js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<!-- Fin du Corps -->
+</body>
+</html>
