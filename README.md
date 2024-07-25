@@ -9,15 +9,15 @@
 
 #### My PhP by the end of the day looks like this : 
 
-<img src="./application/source/php.png" alt="Alt text" title="links" width="600px">
+<img src="./application/source/images/php.png" alt="Alt text" title="links" width="600px">
 
 #### My Table Looked like this : 
 
-<img src="./application/source/table.png" alt="Alt text" title="links" width="600px">
+<img src="./application/source/images/table.png" alt="Alt text" title="links" width="600px">
 
 #### Now i'm gonna sleep on this : 
 
-<img src="./application/source/error.png" alt="Alt text" title="links" width="600px">
+<img src="./application/source/images/error.png" alt="Alt text" title="links" width="600px">
 
 Tho, I might have found the answer in this video. We'll see tomorrow ...
 
@@ -27,19 +27,19 @@ https://www.youtube.com/watch?v=2ygog4MHXws&ab_channel=NouvelleTechno
 
 #### This is my PHP request who's posting my data onto phpmyadmin, filling rightfully my table. 
 
-<img src="./application/source/phpdone.png" alt="Alt text" title="links" width="600px">
+<img src="./application/source/images/phpdone.png" alt="Alt text" title="links" width="600px">
 
-<img src="./application/source/phpmy.png" alt="Alt text" title="links" width="600px">
+<img src="./application/source/images/phpmy.png" alt="Alt text" title="links" width="600px">
 
 #### Now I will create a function with JS: 
 
 ##### addEventlistenner, if the form is submited correctly then the client get sent to the success.html page.
 
-<img src="./application/source/js.png" alt="Alt text" title="links" width="600px">
+<img src="./application/sourceimages//js.png" alt="Alt text" title="links" width="600px">
 
 I had to add this line in my PHP file so it could display success.html and not my var_dump
 
-<img src="./application/source/header.png" alt="Alt text" title="links" width="600px">
+<img src="./application/source/images/header.png" alt="Alt text" title="links" width="600px">
 
 ##### Now I need an HTML page with an interface that displays a list of data and provides the ability to delete a client. Fetch the data from MySQL, and if a client is deleted, also remove it from phpMyAdmin.
 
