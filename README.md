@@ -34,3 +34,16 @@ https://www.youtube.com/watch?v=2ygog4MHXws&ab_channel=NouvelleTechno
 #### Now I will create a function with JS: 
 
 ##### addEventlistenner, if the form is submited correctly then the client get sent to the success.html page.
+
+<img src="./application/source/js.png" alt="Alt text" title="links" width="600px">
+
+I had to add this line in my PHP file so it could display success.html and not my var_dump
+
+<img src="./application/source/header.png" alt="Alt text" title="links" width="600px">
+
+##### Now I need an HTML page with an interface that displays a list of data and provides the ability to delete a client. Fetch the data from MySQL, and if a client is deleted, also remove it from phpMyAdmin.
+
+1) Retrieve the table from MySQL
+2) Create backoffice.html
+3) Display the entries in the table on backoffice.html
+4) If delete, send the information to MySQL to remove the row in phpMyAdmin as well
